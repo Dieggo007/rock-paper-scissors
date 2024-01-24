@@ -10,7 +10,7 @@ function getPlayerChoice() {
     while (true) {
         let choice = prompt('choose rock paper or scissors:');
         choice = choice.charAt(0).toUpperCase() + choice.slice(1).toLowerCase();
-        if (choice !== undefined) return choice;
+        if (who_wins_who[choice] !== undefined) return choice;
     }
 }
 
