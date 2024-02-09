@@ -1,9 +1,9 @@
 "use strict";
 
 const who_wins_who = {
-    'Rock': 'Scissors',
-    'Paper': 'Rock',
-    'Scissors': 'Paper',
+    '✊🏻': 'Scissors',
+    '✋🏻': 'Rock',
+    '✌🏻': 'Paper',
 }
 
 function getPlayerChoice() {
