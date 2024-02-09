@@ -42,6 +42,7 @@ function game() {
     }
     if (player_wins > computer_wins) console.log(`The player has won the best of five games`);
     else console.log(`The computer has won the best of five games\n`);
+    
     console.log(`Player wins: ${player_wins}\nComputer wins: ${computer_wins}`);
 }
 
