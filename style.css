@@ -31,7 +31,7 @@ h1 {
 
 .result-panel > p {
     text-align: center;
-    margin-top: 24px;
+    margin-top: 24px;font-size: 20px;
 }
 
 .result-panel {
@@ -42,11 +42,37 @@ h1 {
 .score {
     display: flex;
     justify-content: center;
-    margin: 0 40px;
     gap: 24px;
-    margin-top: 20px;
-    border: 3px dotted black;
+    margin-top: 36px;
     align-self: center;
     padding: 8px 24px;
     border-radius: 12px;
+}
+
+.base {
+    border: 3px dotted black;
+    background-color: lightgray;
+}
+
+.winner {
+    border: 3px solid darkgreen;
+    background-color: lightgreen;
+}
+
+.loser {
+    border: 3px solid darkred;
+    background-color: lightcoral;
+}
+
+.play-again {
+    align-self: center;
+    margin-top: 24px;
+    padding: 8px;
+    border-radius: 12px;
+    font-size: 20px;
+    border: 3px solid transparent;
+}
+
+.play-again:hover {
+    border-color: black;
 }
