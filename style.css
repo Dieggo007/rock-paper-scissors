@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 36px;
+}
+
+.selection-panel {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    margin-top: 36px;
+}
+
+.selection-panel button {
+    font-size: 36px;
+    border: 3px solid transparent;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.selection-panel button:hover {
+    border-color: lightgreen;
+}
+
+.result-panel > p {
+    text-align: center;
+    margin-top: 24px;font-size: 20px;
+}
+
+.result-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 36px;
+    align-self: center;
+    padding: 8px 24px;
+    border-radius: 12px;
+}
+
+.base {
+    border: 3px dotted black;
+    background-color: lightgray;
+}
+
+.winner {
+    border: 3px solid darkgreen;
+    background-color: lightgreen;
+}
+
+.loser {
+    border: 3px solid darkred;
+    background-color: lightcoral;
+}
+
+.play-again {
+    align-self: center;
+    margin-top: 24px;
+    padding: 8px;
+    border-radius: 12px;
+    font-size: 20px;
+    border: 3px solid transparent;
+}
+
+.play-again:hover {
+    border-color: black;
+}
